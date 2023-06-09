@@ -6,7 +6,8 @@ OpenVINO, OpenCV, Cmake.
 ## Set up OpenVINO
 Download openvino release and extractor to %OpenVINO_DIR%. link: https://af01p-ir.devtools.intel.com/artifactory/vpu_ci-ir-local/Unified/nightly/integration/vpux-plugin/releases/2023/0/2023.05.30_2101/ci_tag_vpux_rc_20230530_2101/
 ## Set up OpenCV
-Download opencv and install it.link: https://github.com/opencv/opencv/releases
+Download opencv and install it.link: https://github.com/opencv/opencv/releases.
+
 Double click to innstall to %OpenCV_DIR%.
 
 # Build demo
@@ -29,7 +30,9 @@ use built-in gui to snip img.
 ## clip mode
     build\intel64\Release\paddle_ocr_demo.exe -is clip  
 Get image from clipboard. Before using this function, please ensure that there is image data in the clipboard. 
+
 Trigger ocr key: Alt+T. After the two key is pressed down sequentially, execute program will start ocr on clipboard image.
+
 Usage method like: Win+Shift+s -> Alt  -> T .
 
 
